@@ -1,6 +1,6 @@
 ## Members
-Henry Forsyth, Computer Engineering Student (2024)
-rhforsythjr@vt.edu
+Shane Wyman, Computer Engineering Student (2027)
+shanew05@vt.edu
 
 ## Mentor
 MENTOR NAME HERE
@@ -10,19 +10,23 @@ IN PROGRESS
 
 ## Project Overview
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula, odio eu dictum aliquet, enim elit tempor diam, quis volutpat mi eros ut nisi. Aliquam luctus orci eget accumsan porta. Proin sollicitudin ultricies lacus et varius. Pellentesque tempor vehicula tempus. Integer semper id lorem vehicula tristique. Suspendisse nec placerat libero, eget aliquet eros. Phasellus iaculis quis lorem in ultrices. Nunc lobortis odio at sem pretium dictum. Integer sed tellus quis lorem pretium posuere.
+The project will be a LED matrix set up a grid pattern of 32 x 18 (576 total LEDs) with 3d printed seperating boxes in between each LED which is then funneled into a light diffusing fabric. With the current parts, the LED matrix will be about 2ft by 1ft. This will all be controlled with a Arduino Mega with the fastLED libary, as it will be responsible for the LED activation along with some rendering. In order to reach the required current to run 576 LEDs, a external power supply will be used. The base of the grid pattern will first be setup on a piece of cardboard, the strips will be glued on, tested, then the 3d printed boxes, then finally the light diffusing fabric will be wrapped around.
 
 ## Educational Value Added
 
-Vivamus dapibus iaculis dui. Nullam vitae arcu a nisi elementum semper eu eu velit. Suspendisse vel dictum lacus. Sed facilisis luctus consequat. Donec vulputate eu dolor in molestie. Maecenas pretium sem non tellus facilisis sollicitudin id ut nulla. In condimentum orci nisi, sagittis facilisis neque convallis eget. Duis ut sem cursus, placerat mi pellentesque, mollis eros. Integer efficitur blandit elit, sed egestas sem porta in. Mauris euismod nulla ac tellus tempus, eu egestas dui molestie. Proin faucibus enim quis consequat sodales. Pellentesque eleifend blandit augue et laoreet. Phasellus vel posuere nisi, ac aliquam arcu.
+The main one is the simple fact that I've never really had the free reign to work on a project of this scale, most times it is either heavly group influenced or not nearly to a large enough scale. The other educational values are a further understandings of using arudino libaries, 3d printing parts, high current DC circuts. I also plan on using the arudino to render some gifs, from things as simple as a dot bouncing around the screen to things like audio visuallizers and more.
 
 ## Tasks
 
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+1st: Verifcation of theroy: Need to make sure the libary and such work, as the testing will invovle 1 LED being on at any given moment, the arudiono can run it by itself without needing the power supply.
+2nd: Build matrix: Cut up LEDs into strips of 32 and glue them to the cardboard, wire them up together and test 1 LED when all. After that wire up power supply and then test max current.
+3rd: Do all the testing, properly set up the matrix and testing different screens and some renders.
+4th: Glue on the 3d parts, wrap in light diffusing fabric, and mount it up on a wall or something.
+5th: Extra stuff can be done like make more programs and screens to have diffrent effects shown.
 
 ## Design Decisions
 
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+1. Project can be done with just a standard Uno r3 with 2kb of ram, but I want the mega with 4kb of ram. The main reason stems to that I want the arudino to being doing more than just sending out the data to all the LEDs. I want to possibly run an audio visualizer on it, some fractals, maybe setup a webserver to send it data from a computer for it to display. Having a mega would allow more to be done in about the same size package.
 
 ## Design Misc
 
